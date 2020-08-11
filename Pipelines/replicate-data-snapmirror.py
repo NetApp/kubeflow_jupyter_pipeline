@@ -5,7 +5,7 @@ import kfp.components as comp
 from kubernetes import client as k8s_client
 
 
-# Define function that triggers the creation of a NetApp snapshot
+# Define function that triggers a NetApp SnapMirror update
 def netappSnapMirrorUpdate(
     ontapClusterMgmtHostname: str, 
     sourceSvm: str,
