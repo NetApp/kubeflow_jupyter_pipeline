@@ -50,15 +50,11 @@ def netappSnapshot(
     timestamp = datetime.today().strftime("%Y%m%d_%H%M%S")
     snapshot = Snapshot.from_dict({
         'name': 'kfp_%s' % timestamp,
-        'comment': 'Snapshot created by a Kubeflow pipeline',
         'volume': volume.to_dict()
     })
     response = snapshot.post()
     print("\nAPI Response:")
     print(response.http_response.text)
-
-    # Retrieve snapshot details
-    snapshot.get()
 
     # Convert snapshot details to JSON string and print
     snapshotDetails = snapshot.to_dict()
