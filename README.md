@@ -1,5 +1,5 @@
 # Kubeflow and Jupyter Examples
-This repository contains example Kubeflow pipeline definitions and Jupyter Notebooks that show how NetApp data management functions can be performed using Kubeflow and Jupyter. For comprehensive documentation on NetApp's Kubeflow and Jupyter integrations, refer to [TR-4798](https://www.netapp.com/us/media/tr-4798.pdf).
+This repository contains example Kubeflow pipeline definitions and Jupyter Notebooks that show how NetApp data management functions can be incorporated by data scientists and data engineers using Kubeflow and Jupyter. The example Kubeflow pipeline definitions show how NetApp data management functions can be incorporated as steps in automated Kubeflow pipeline workflows. The example Jupyter Notebooks show how NetApp data management functions can be performed on demand by data scientists or developers working within a Jupyter Notebook environment. For comprehensive documentation on NetApp's Kubeflow and Jupyter integrations, refer to [TR-4798](https://www.netapp.com/us/media/tr-4798.pdf).
 
 ## Kubeflow Pipeline Definitions
 
